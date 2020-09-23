@@ -52,7 +52,6 @@ const SellerInfo: React.FC = () => {
         </ReputationRow>
       </ReputationCard>
 
-      <More href="#">Ver mas datos del vendedor<More />
     </Container>
   );
 };
