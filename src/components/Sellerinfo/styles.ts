@@ -48,7 +48,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 `;
-export const ReputationThermometer = styled.div`
+export const ReputationThermometer = styled.ol`
 list-style: none;
 width: 100%;
 display: grid;
@@ -91,8 +91,35 @@ align-items: flex-start;
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  > strong {
+    font-size: 24px;
+    font-weight: normal;
+    height: 30px;
+  }
+  > span {
+    font-size: 12px;
+  }
+  postition: relative;
+  & + div {
+    &::before {
+      content:"";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-50%);
+      height: 36px;
+      border-left: 1px solid var(--color-border);
+    }
+  }
 }
+
 `;
 export const SupportIcon = styled(HiOutlineChatAlt2)`${iconCSS}`;
 export const ClockIcon = styled(HiOutlineClock)`${iconCSS}`;
-export const More = styled.div``;
+export const More = styled.a`
+margin-top: 24px;
+color: var(--color-blue);
+font-size: 14px;
+font-weight: 600;
+`;

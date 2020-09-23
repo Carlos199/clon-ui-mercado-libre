@@ -28,7 +28,7 @@ const SellerInfo: React.FC = () => {
 
       <ReputationCard>
         <ReputationThermometer>
-          <li />
+          <li>.</li>
           <li />
           <li />
           <li />
@@ -36,6 +36,12 @@ const SellerInfo: React.FC = () => {
         </ReputationThermometer>
 
         <ReputationRow>
+          <div>
+            <strong>
+              561
+            </strong>
+            <span>ventas</span>
+          </div>
           <div>
             <strong>
               <SupportIcon />
@@ -52,6 +58,7 @@ const SellerInfo: React.FC = () => {
         </ReputationRow>
       </ReputationCard>
 
+      <More href="">Ver mas datos del vendedor</More >
     </Container>
   );
 };
