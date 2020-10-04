@@ -70,6 +70,7 @@ flex-direction: column;
 export const Description = styled.div`
 border-top: 1px solid var(--color-border);
 padding: 44px  32px;
+border-color: red;
 
 >h2 {
   font-size: 24px;

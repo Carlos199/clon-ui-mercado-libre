@@ -2,6 +2,7 @@ import React from "react";
 
 import SellerInfo from "../Sellerinfo";
 import tshirtImage from '../../assets/tshirt.png';
+import ProductAction from "../ProductAction";
 import {
   Container,
   Row,
@@ -29,7 +30,7 @@ const Product: React.FC = () => {
         </Column>
         <Column>
 
-          {/* <ProductAction /> */}
+          <ProductAction />
           <SellerInfo />
 
           <WarrantySection />
@@ -73,8 +74,8 @@ const Info = () => (
     - 1x LED <br />
     - 1x LED <br />
       <br />
-    Fusque mec fusat afafksaflt a adfaklf ta fsalt faskfkkkt afa ta kfasf aktoafmas f takskfasmfk akm kmfaslkflk aggal kfaf lfkjfakgj akf akagjafm akfkfasl flkflkdslkfg aslfalsf dsfksf
-    kfdflaf dkflñakfadkfpakflñadkflñakfladkfkalñ fkl  kfdñlfkds dfklk
+    Remera blanca con mangas cortas, que esperas para lucir esta hermosa remera, llevalo a todas partes ideal para el trabajo, para salir, o para ir a la playa.
+    No esperes mas llamanos al 098342224.
     </p>
   </Description>
 )
